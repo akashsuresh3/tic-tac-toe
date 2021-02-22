@@ -1,15 +1,13 @@
-#Tic Tac Toe
+>Tic Tac Toe Application to be run on the browser
 
-**A basic Tic Tac Toe game built using HTML/JavaScript/CSS. No dependencies.** 
+1. This basic game is implemented using JavaScript and supported by html and css. 
+2. It can be run on any browser. 
+3. To start the game run welcome.html after downloading all the files and folder in the master folder i.e tic-tac-toe-32C
+4. The rules of the game are explained in the first page on loading welcome.html
+5. Game begins once the user clicks the button 'Let's play'
 
-[![View The Demo](https://www.mtb.com/personal/onlineservices/PublishingImages/alt-banking-button-view-demo-cs5452.jpg)](http://codepen.io/vasanthkay/pen/KVzYzG?editors=001)
+
+(This was implemented as part of the assignment given to me by 32Crayons during their internship recruitment process)
 
 
-##How to get started
-1. To make a move, the player will use the mouse single click to mark a space. In this version, there is no provision to undo the move. As soon as the move is done, the game proceeds to the next player’s chance.
-2. At each move, The game will show whose move (Player A or Player B) it is. When the game ends, it displays one of the following three outcomes:
-
-* Winner: Player A
-* Winner: Player B
-* Draw
-
+>Enjoy playing!
