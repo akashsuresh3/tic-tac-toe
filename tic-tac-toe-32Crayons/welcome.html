@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Welcome to our game</title>
+    <style>
+      h1 {text-align: center;}
+      .button {
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      background-color: white; 
+      color: black; 
+      border: 2px solid #4CAF50;
+      position:relative;
+      left:40%;
+      }
+      .button:hover {
+      background-color: #4CAF50;
+      color: white;
+      }
+      body {
+      background-image: url("tic_image2.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 175%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1> Tic Tac Toe Game </h1>
+    <h2> Rules: </h2>
+    <ol>
+      <li>There are two players in the game. First player is assigned symbol - X, Second player is assigned symbol - O </li><br>
+      <li>Both players have different names before game begins, if same a similar prompt will notify the problem </li><br>  
+      <li>Each player can mark his position in any of the unmarked boxes in the 3X3 matrix by clicking using the mouse </li><br>
+      <li>The first player to align 3 of his symbols in a line horizontally, vertically or diagonally wins the game </li><br>
+      <li>If all the boxes of the matrix are filled and there is no winner then the game comes to a draw </li><br>
+      <li>If the game needs to be reset hit reload </li><br>
+      <li>The player whose chance is to play will be displayed below the matrix </li><br>
+    </ol>
+    <button class="button" onclick="document.location='start_html/start_game.html'">Let's Play</button>
+  </body>
+</html>
