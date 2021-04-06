@@ -7,7 +7,5 @@
 5. Game begins once the user clicks the button 'Let's play'
 
 
-(This was implemented as part of the assignment given to me by 32Crayons during their internship recruitment process)
-
 
 >Enjoy playing!
